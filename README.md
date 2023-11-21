@@ -22,7 +22,7 @@ JetPet Buddies addresses these pain points through a suite of features:
 - [Chan Ka Wing (KelvinSloth)](https://github.com/KelvinSloth)
 
 ## Setup
-Our app only provides basic Swift UI and a Chat Bot feature. To use the Chat Bot functionality, you need to input your own API key.
+Our app offers fundamental Swift UI through hard coding, along with a Chat Bot feature. To utilize the Chat Bot functionality, you must input your own API key.
 
 ### Configuring the Chat Bot API Key
 1. Navigate to `JetPet Buddies/Chat.swift`.
