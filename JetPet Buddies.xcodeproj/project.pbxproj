@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5039228C2B09679800EF2DFC /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5039228B2B09679800EF2DFC /* ChatGPTSwift */; };
+		5039228E2B0967C800EF2DFC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039228D2B0967C800EF2DFC /* Chat.swift */; };
+		ABBE6EC22B08F7A80035EBFB /* Trivia_Quizzes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE6EC12B08F7A80035EBFB /* Trivia_Quizzes.swift */; };
+		AFC7BE3E2B08FA6A005B49B0 /* Travel_Journal_Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7BE3D2B08FA6A005B49B0 /* Travel_Journal_Location.swift */; };
+		AFCB2E622B03A799009864F7 /* JetPet_BuddiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2E612B03A799009864F7 /* JetPet_BuddiesApp.swift */; };
+		AFCB2E642B03A799009864F7 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2E632B03A799009864F7 /* HomePage.swift */; };
+		AFCB2E662B03A79B009864F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCB2E652B03A79B009864F7 /* Assets.xcassets */; };
+		AFCB2E742B03A79B009864F7 /* JetPet_BuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2E732B03A79B009864F7 /* JetPet_BuddiesTests.swift */; };
+		AFCB2E7E2B03A79B009864F7 /* JetPet_BuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2E7D2B03A79B009864F7 /* JetPet_BuddiesUITests.swift */; };
+		AFCB2E802B03A79B009864F7 /* JetPet_BuddiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2E7F2B03A79B009864F7 /* JetPet_BuddiesUITestsLaunchTests.swift */; };
+		AFF59F1B2B0928F2004AF452 /* Travel_Journal_Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF59F1A2B0928F2004AF452 /* Travel_Journal_Animal.swift */; };
+		AFF59F1D2B09326F004AF452 /* MyMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF59F1C2B09326F004AF452 /* MyMemory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCB2E702B03A79B009864F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCB2E562B03A799009864F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCB2E5D2B03A799009864F7;
+			remoteInfo = "JetPet Buddies";
+		};
+		AFCB2E7A2B03A79B009864F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCB2E562B03A799009864F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCB2E5D2B03A799009864F7;
+			remoteInfo = "JetPet Buddies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5039228D2B0967C800EF2DFC /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		ABBE6EC12B08F7A80035EBFB /* Trivia_Quizzes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_Quizzes.swift; sourceTree = "<group>"; };
+		AFC7BE3D2B08FA6A005B49B0 /* Travel_Journal_Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_Journal_Location.swift; sourceTree = "<group>"; };
+		AFCB2E5E2B03A799009864F7 /* JetPet Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JetPet Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCB2E612B03A799009864F7 /* JetPet_BuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetPet_BuddiesApp.swift; sourceTree = "<group>"; };
+		AFCB2E632B03A799009864F7 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		AFCB2E652B03A79B009864F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCB2E672B03A79B009864F7 /* JetPet_Buddies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JetPet_Buddies.entitlements; sourceTree = "<group>"; };
+		AFCB2E6F2B03A79B009864F7 /* JetPet BuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JetPet BuddiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCB2E732B03A79B009864F7 /* JetPet_BuddiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetPet_BuddiesTests.swift; sourceTree = "<group>"; };
+		AFCB2E792B03A79B009864F7 /* JetPet BuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JetPet BuddiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCB2E7D2B03A79B009864F7 /* JetPet_BuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetPet_BuddiesUITests.swift; sourceTree = "<group>"; };
+		AFCB2E7F2B03A79B009864F7 /* JetPet_BuddiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetPet_BuddiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFF59F1A2B0928F2004AF452 /* Travel_Journal_Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_Journal_Animal.swift; sourceTree = "<group>"; };
+		AFF59F1C2B09326F004AF452 /* MyMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMemory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCB2E5B2B03A799009864F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5039228C2B09679800EF2DFC /* ChatGPTSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E6C2B03A79B009864F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E762B03A79B009864F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCB2E552B03A799009864F7 = {
+			isa = PBXGroup;
+			children = (
+				AFCB2E602B03A799009864F7 /* JetPet Buddies */,
+				AFCB2E722B03A79B009864F7 /* JetPet BuddiesTests */,
+				AFCB2E7C2B03A79B009864F7 /* JetPet BuddiesUITests */,
+				AFCB2E5F2B03A799009864F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCB2E5F2B03A799009864F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2E5E2B03A799009864F7 /* JetPet Buddies.app */,
+				AFCB2E6F2B03A79B009864F7 /* JetPet BuddiesTests.xctest */,
+				AFCB2E792B03A79B009864F7 /* JetPet BuddiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCB2E602B03A799009864F7 /* JetPet Buddies */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2E612B03A799009864F7 /* JetPet_BuddiesApp.swift */,
+				AFCB2E632B03A799009864F7 /* HomePage.swift */,
+				AFCB2E652B03A79B009864F7 /* Assets.xcassets */,
+				AFF59F1C2B09326F004AF452 /* MyMemory.swift */,
+				AFCB2E672B03A79B009864F7 /* JetPet_Buddies.entitlements */,
+				ABBE6EC12B08F7A80035EBFB /* Trivia_Quizzes.swift */,
+				AFC7BE3D2B08FA6A005B49B0 /* Travel_Journal_Location.swift */,
+				AFF59F1A2B0928F2004AF452 /* Travel_Journal_Animal.swift */,
+				5039228D2B0967C800EF2DFC /* Chat.swift */,
+			);
+			path = "JetPet Buddies";
+			sourceTree = "<group>";
+		};
+		AFCB2E722B03A79B009864F7 /* JetPet BuddiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2E732B03A79B009864F7 /* JetPet_BuddiesTests.swift */,
+			);
+			path = "JetPet BuddiesTests";
+			sourceTree = "<group>";
+		};
+		AFCB2E7C2B03A79B009864F7 /* JetPet BuddiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2E7D2B03A79B009864F7 /* JetPet_BuddiesUITests.swift */,
+				AFCB2E7F2B03A79B009864F7 /* JetPet_BuddiesUITestsLaunchTests.swift */,
+			);
+			path = "JetPet BuddiesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCB2E5D2B03A799009864F7 /* JetPet Buddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCB2E832B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet Buddies" */;
+			buildPhases = (
+				AFCB2E5A2B03A799009864F7 /* Sources */,
+				AFCB2E5B2B03A799009864F7 /* Frameworks */,
+				AFCB2E5C2B03A799009864F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JetPet Buddies";
+			packageProductDependencies = (
+				5039228B2B09679800EF2DFC /* ChatGPTSwift */,
+			);
+			productName = "JetPet Buddies";
+			productReference = AFCB2E5E2B03A799009864F7 /* JetPet Buddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFCB2E6E2B03A79B009864F7 /* JetPet BuddiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCB2E862B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet BuddiesTests" */;
+			buildPhases = (
+				AFCB2E6B2B03A79B009864F7 /* Sources */,
+				AFCB2E6C2B03A79B009864F7 /* Frameworks */,
+				AFCB2E6D2B03A79B009864F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCB2E712B03A79B009864F7 /* PBXTargetDependency */,
+			);
+			name = "JetPet BuddiesTests";
+			productName = "JetPet BuddiesTests";
+			productReference = AFCB2E6F2B03A79B009864F7 /* JetPet BuddiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFCB2E782B03A79B009864F7 /* JetPet BuddiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCB2E892B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet BuddiesUITests" */;
+			buildPhases = (
+				AFCB2E752B03A79B009864F7 /* Sources */,
+				AFCB2E762B03A79B009864F7 /* Frameworks */,
+				AFCB2E772B03A79B009864F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCB2E7B2B03A79B009864F7 /* PBXTargetDependency */,
+			);
+			name = "JetPet BuddiesUITests";
+			productName = "JetPet BuddiesUITests";
+			productReference = AFCB2E792B03A79B009864F7 /* JetPet BuddiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCB2E562B03A799009864F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AFCB2E5D2B03A799009864F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					AFCB2E6E2B03A79B009864F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AFCB2E5D2B03A799009864F7;
+					};
+					AFCB2E782B03A79B009864F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AFCB2E5D2B03A799009864F7;
+					};
+				};
+			};
+			buildConfigurationList = AFCB2E592B03A799009864F7 /* Build configuration list for PBXProject "JetPet Buddies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCB2E552B03A799009864F7;
+			packageReferences = (
+				5039228A2B09679800EF2DFC /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = AFCB2E5F2B03A799009864F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCB2E5D2B03A799009864F7 /* JetPet Buddies */,
+				AFCB2E6E2B03A79B009864F7 /* JetPet BuddiesTests */,
+				AFCB2E782B03A79B009864F7 /* JetPet BuddiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCB2E5C2B03A799009864F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCB2E662B03A79B009864F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E6D2B03A79B009864F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E772B03A79B009864F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCB2E5A2B03A799009864F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF59F1D2B09326F004AF452 /* MyMemory.swift in Sources */,
+				AFC7BE3E2B08FA6A005B49B0 /* Travel_Journal_Location.swift in Sources */,
+				5039228E2B0967C800EF2DFC /* Chat.swift in Sources */,
+				AFCB2E642B03A799009864F7 /* HomePage.swift in Sources */,
+				AFCB2E622B03A799009864F7 /* JetPet_BuddiesApp.swift in Sources */,
+				ABBE6EC22B08F7A80035EBFB /* Trivia_Quizzes.swift in Sources */,
+				AFF59F1B2B0928F2004AF452 /* Travel_Journal_Animal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E6B2B03A79B009864F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCB2E742B03A79B009864F7 /* JetPet_BuddiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCB2E752B03A79B009864F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCB2E7E2B03A79B009864F7 /* JetPet_BuddiesUITests.swift in Sources */,
+				AFCB2E802B03A79B009864F7 /* JetPet_BuddiesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCB2E712B03A79B009864F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCB2E5D2B03A799009864F7 /* JetPet Buddies */;
+			targetProxy = AFCB2E702B03A79B009864F7 /* PBXContainerItemProxy */;
+		};
+		AFCB2E7B2B03A79B009864F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCB2E5D2B03A799009864F7 /* JetPet Buddies */;
+			targetProxy = AFCB2E7A2B03A79B009864F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFCB2E812B03A79B009864F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFCB2E822B03A79B009864F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AFCB2E842B03A79B009864F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JetPet Buddies/JetPet_Buddies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JetPet Buddies/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JetPet-Buddies-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "JetPetBuddiesThis app needs access to the camera for augmented reality features.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCB2E852B03A79B009864F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JetPet Buddies/JetPet_Buddies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JetPet Buddies/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JetPet-Buddies-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "JetPetBuddiesThis app needs access to the camera for augmented reality features.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFCB2E872B03A79B009864F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVKBQCX9XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies.JetPet-BuddiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetPet Buddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JetPet Buddies";
+			};
+			name = Debug;
+		};
+		AFCB2E882B03A79B009864F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVKBQCX9XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies.JetPet-BuddiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetPet Buddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JetPet Buddies";
+			};
+			name = Release;
+		};
+		AFCB2E8A2B03A79B009864F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVKBQCX9XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies.JetPet-BuddiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JetPet Buddies";
+			};
+			name = Debug;
+		};
+		AFCB2E8B2B03A79B009864F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVKBQCX9XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JetPet-Buddies.JetPet-BuddiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JetPet Buddies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCB2E592B03A799009864F7 /* Build configuration list for PBXProject "JetPet Buddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB2E812B03A79B009864F7 /* Debug */,
+				AFCB2E822B03A79B009864F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCB2E832B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet Buddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB2E842B03A79B009864F7 /* Debug */,
+				AFCB2E852B03A79B009864F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCB2E862B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet BuddiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB2E872B03A79B009864F7 /* Debug */,
+				AFCB2E882B03A79B009864F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCB2E892B03A79B009864F7 /* Build configuration list for PBXNativeTarget "JetPet BuddiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB2E8A2B03A79B009864F7 /* Debug */,
+				AFCB2E8B2B03A79B009864F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5039228A2B09679800EF2DFC /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5039228B2B09679800EF2DFC /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5039228A2B09679800EF2DFC /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AFCB2E562B03A799009864F7 /* Project object */;
+}
